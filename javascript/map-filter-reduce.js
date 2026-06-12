@@ -93,9 +93,11 @@ console.log(totalPrice);
 let arrNumber = [7,12,3,25,9];
 
 let largestNumber = arrNumber.reduce((acc,num) => {
-    return acc > num;
+    acc = Math.max(acc,num);
+    return acc;
 },0);
-console.log("The Largest number in the array" + largestNumber);
+console.log("The Largest number in the array" + largestNumber); 
+
 
 
 // ["hi", "hello", "javascript"]
