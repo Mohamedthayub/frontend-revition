@@ -4,3 +4,58 @@
 body{
     font-family: "Overpass", sans-serif;
 }
+
+.todo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+#userinput{
+    padding: 15px;
+    border-radius: 5px;
+    width: 400px;
+    font-size: 18px;
+
+}
+#add-btn{
+    background-color: green;
+    color: black;
+    height: 55px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.todo-items-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.todo-text{
+    font-size: 19px;
+}
+.todo-delete{
+    background-color: red;
+    color: black;
+    height: 40px;
+    width: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+
+
+.done{
+    text-decoration: line-through;
+}
