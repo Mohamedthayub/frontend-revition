@@ -1,0 +1,19 @@
+.navbar{
+  display:flex;
+  justify-content:space-around;
+  padding:5px;
+  background-color:tomato; 
+  border-radius:10px
+}
+
+.nav-items{
+  display:flex;
+  margin-top:10px
+  
+}
+p{
+  font-size:20px;
+  margin-left:15px;
+  cursor:pointer;
+}
+
